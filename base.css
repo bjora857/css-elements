@@ -1,3 +1,145 @@
-* {
-	color: black;
+/* @group base */
+body {
+	font-family:"Myriad Pro";
 }
+/* @end */
+
+/* @group box */
+
+div.box {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #c6c6c6;
+	float: left;
+}
+div.box .headline {
+	font-weight:  bold;
+	text-shadow: 1px 1px 0 #ffffff;
+	font-size: 14px;
+	padding: 5px 5px 1px 5px;
+	
+	background:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.20, rgb(207,207,207)),
+    color-stop(0.80, rgb(241,241,241))
+	);
+	background: -moz-linear-gradient(
+    center bottom,
+    rgb(237,222,189) 32%,
+    rgb(255,255,255) 83%);
+	
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	
+	border-bottom: 1px solid #c6c6c6;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);    
+}
+
+div.box .content {
+	padding: 5px;
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,1);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	
+	background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.32, rgb(250,250,250)),
+    color-stop(0.83, rgb(255,255,255))
+	);
+	background: -moz-linear-gradient(
+    center bottom,
+    rgb(237,222,189) 32%,
+    rgb(255,255,255) 83%);
+	
+}
+
+
+
+/* @end */
+table.fancy {
+	border-spacing: 0;
+	border: 1px solid #c6c6c6;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-top: 10px;
+}
+
+table.fancy thead th {
+	font-size: 12px;
+	line-height:20px;
+	text-shadow: 1px 1px 0 #e2e2e2;
+	background:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.20, rgb(180,180,180)),
+    color-stop(0.80, rgb(220,220,220)),
+    color-stop(1.00, rgb(235,235,235))
+	);
+	background: -moz-linear-gradient(
+    center bottom,
+    rgb(180,180,180) 20%,
+    rgb(220,220,220) 80%,
+    rgb(235,235,235) 100%);
+    
+    padding: 4px 1px 2px 1px;
+    border-bottom: 1px solid #666666;
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);    
+}
+
+table.fancy tbody tr td {
+	padding: 5px;
+	font-size: 12px;
+}
+table.fancy tbody tr:nth-child(odd) td {
+	background: -webkit-gradient(linear,left bottom,left top,
+    color-stop(0.32, rgb(240,240,240)),
+    color-stop(0.83, rgb(252,252,252))
+	);
+	background: -moz-linear-gradient(center bottom,
+    rgb(240,240,240) 32%,
+    rgb(252,252,252) 83%);
+    border-bottom: 1px solid #aaaaaa;
+}
+
+table.fancy tbody tr:nth-child(even) td {
+	background: -webkit-gradient(linear,left bottom,left top,
+    color-stop(0.32, rgb(220,220,220)),
+    color-stop(0.83, rgb(245,245,245))
+	);
+	background: -moz-linear-gradient(center bottom,
+    rgb(220,220,220) 32%,
+    rgb(245,245,245) 83%);
+    border-bottom: 1px solid #aaaaaa;
+}
+
+table.fancy tbody tr:first-child td {
+	border-top: 1px solid #bbbbbb;
+}
+
+
+table.fancy tr:nth-child(even):hover td,table.fancy tr:nth-child(odd):hover td {
+	background: -webkit-gradient(linear,left bottom,left top,
+    color-stop(0.32, #d1e1fb),
+    color-stop(0.83, #ecf2fb)
+	);
+	background: -moz-linear-gradient(center bottom,
+    #d1e1fb 32%,
+    #ecf2fb 83%);
+		
+    border-bottom: 1px solid #aaaaaa;	
+}
+
+
+
+/* @group table */
+
+
+
+/* @end */
+
